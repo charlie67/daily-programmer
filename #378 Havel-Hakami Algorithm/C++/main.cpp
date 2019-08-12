@@ -43,7 +43,7 @@ bool hh(std::vector<int> array) {
         return true;
     }
 
-    std::sort(array.begin(), array.end(), std::greater<int>());
+    std::sort(array.begin(), array.end(), std::greater<>());
     int n = array.at(0);
     array.erase(array.begin());
 
